@@ -24,7 +24,7 @@ export default function Navbar() {
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5">
-          <img src="/app-logo.jpeg" alt="WattPose" className="w-8 h-8 rounded-xl object-cover" />
+          <img src={`${import.meta.env.BASE_URL}app-logo.jpeg`} alt="WattPose" className="w-8 h-8 rounded-xl object-cover" />
           <span className="font-bold text-lg tracking-tight">
             Watt<span className="text-gradient">Pose</span>
           </span>

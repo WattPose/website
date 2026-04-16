@@ -23,7 +23,7 @@ export function LangProvider({ children }: { children: ReactNode }) {
     lang,
     setLang,
     t: translations[lang] as any,
-    screenshotPath: (name: string) => `/screenshots/${lang}/${name}`,
+    screenshotPath: (name: string) => `${import.meta.env.BASE_URL}screenshots/${lang}/${name}`,
   }
 
   return <LangContext.Provider value={value}>{children}</LangContext.Provider>

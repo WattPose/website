@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
           {/* Logo */}
           <div className="flex items-center gap-2.5">
-            <img src="/app-logo.jpeg" alt="WattPose" className="w-7 h-7 rounded-lg object-cover" />
+            <img src={`${import.meta.env.BASE_URL}app-logo.jpeg`} alt="WattPose" className="w-7 h-7 rounded-lg object-cover" />
             <span className="font-bold text-sm tracking-tight">
               Watt<span className="text-gradient">Pose</span>
             </span>
