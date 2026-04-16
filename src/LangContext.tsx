@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react'
+import { createContext, useContext, useState, useEffect } from 'react'
 import type { ReactNode } from 'react'
 import { translations } from './i18n'
 import type { Lang } from './i18n'
@@ -17,6 +17,11 @@ export function LangProvider({ children }: { children: ReactNode }) {
     const browser = navigator.language.toLowerCase()
     return browser.startsWith('de') ? 'de' : 'en'
   })
+
+  // Keep <html lang> in sync for SEO and accessibility
+  useEffect(() => {
+    document.documentElement.lang = lang
+  }, [lang])
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const value: LangContextValue = {
