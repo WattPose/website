@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   // Set base to '/' for root deployment on World4you.
   // Change to '/subfolder/' if deploying into a subdirectory.
-  base: '/',
+  base: '/website/',
   build: {
     outDir: 'dist',
     // Inline assets smaller than 4 KB to reduce HTTP requests.
