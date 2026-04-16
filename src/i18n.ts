@@ -135,10 +135,10 @@ export const translations = {
 
     // Features
     featuresLabel: 'Funktionen',
-    featuresHeadline1: 'Alles, was ein Profi-Fitting',
-    featuresHeadlineGradient: '300 € kostet',
-    featuresHeadline2: '– kostenlos in deiner Tasche.',
-    featuresSub: 'Biomechanische Analyse in Profiqualität, die früher ein Speziallabor erforderte. Läuft jetzt auf deinem Smartphone – direkt beim Training.',
+    featuresHeadline1: 'Finde deine',
+    featuresHeadlineGradient: 'perfekte Position',
+    featuresHeadline2: 'auf dem Rad.',
+    featuresSub: 'WattPose analysiert deine Körperhaltung in Echtzeit und hilft dir, Session für Session die optimale Position zu finden – direkt beim Training auf deinem Smartphone.',
     features: [
       {
         title: 'Echtzeit-KI-Analyse',
