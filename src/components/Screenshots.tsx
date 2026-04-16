@@ -4,7 +4,7 @@ import { useInView } from '../hooks/useInView'
 import PhoneFrame from './PhoneFrame'
 import { useLang } from '../LangContext'
 
-const screenFiles = ['screen1.png', 'screen2.png', 'screen3.png', 'screen4.png', 'screen5.png']
+const screenFiles = ['screen1.jpg', 'screen2.jpg', 'screen3.jpg', 'screen4.jpg', 'screen5.jpg']
 
 export default function Screenshots() {
   const { ref, inView } = useInView()

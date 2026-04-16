@@ -4,9 +4,9 @@ import PhoneFrame from './PhoneFrame'
 import { useLang } from '../LangContext'
 
 const stepsMeta = [
-  { number: '01', color: '#6366F1', screen: 'screen2.png' },
-  { number: '02', color: '#10B981', screen: 'screen3.png' },
-  { number: '03', color: '#FF4081', screen: 'screen4.png' },
+  { number: '01', color: '#6366F1', screen: 'screen2.jpg' },
+  { number: '02', color: '#10B981', screen: 'screen3.jpg' },
+  { number: '03', color: '#FF4081', screen: 'screen4.jpg' },
 ]
 
 export default function HowItWorks() {

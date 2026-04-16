@@ -96,7 +96,7 @@ export default function Hero() {
         >
           <div className="relative animate-float">
             <div className="absolute inset-[-40px] rounded-[80px] bg-indigo/20 blur-[60px] animate-pulse-glow" />
-            <PhoneFrame src={screenshotPath('screen1.png')} className="relative z-10 w-64 sm:w-72" />
+            <PhoneFrame src={screenshotPath('screen1.jpg')} className="relative z-10 w-64 sm:w-72" />
           </div>
         </motion.div>
       </div>
